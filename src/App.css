@@ -1,0 +1,98 @@
+/* *{
+  font-family: cursive;
+} */
+.signup{
+  /* margin-left: 40%; */
+  margin-top: 5%;
+  border : 1px solid gray;
+  background-color: white;
+}
+
+.login{
+
+  margin-top: 10%;
+  background-color: white;
+  border: 1px solid gray;
+
+
+}
+.dashboard{
+  margin-left: 40%;
+  margin-top: 10%;
+  
+}
+
+.a{
+  border: 2px solid red;
+}
+
+.b{
+  border: 2px solid black;
+}
+
+.c{
+  border: 2px solid yellow;
+}
+
+/* div{
+  border:2px solid brown
+} */
+
+.dashbimgtitle{
+  font-family:fantasy;
+}
+
+.signupmain{
+  /* background-color:#6FDF41; */
+  /* background: rgb(183,248,219);
+background: linear-gradient(90deg, rgba(183,248,219,1) 0%, rgba(80,167,194,1) 100%); */
+
+
+
+background: rgb(102,153,255);
+background: linear-gradient(90deg, rgba(102,153,255,1) 0%, rgba(255,153,204,1) 100%);
+  
+ 
+}
+
+.signuploginhead{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.signup-col-text{
+  margin-top:150px;
+  /* border: 1px solid gray; */
+  /* background-color: white; */
+
+
+}
+
+.login-col-text{
+  margin-top:150px;
+  /* border: 1px solid gray; */
+  /* background-color: white; */
+  width: 200px;
+
+
+} 
+
+.loginmain{
+
+  /* background-color:#6FDF41; */
+  /* background-color: #FF003C; */
+  /* background-color: #25d366; */
+  background: rgb(153,204,255);
+  background: linear-gradient(90deg, rgba(153,204,255,1) 0%, rgba(255,153,204,1) 100%);
+  
+}
+
+/* .sell-maindiv{
+  background: rgb(86,171,47);
+  background: radial-gradient(circle, rgba(86,171,47,1) 0%, rgba(168,224,99,1) 100%);
+} */
+
+.loadingdivonAppjs{
+  width: 300px;
+  margin-left: 550px;
+  margin-top: 210px;
+}
