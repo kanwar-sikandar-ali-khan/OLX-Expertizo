@@ -1,26 +1,19 @@
-import './App.css';
-import RouterComp from './config/router'
-import { auth } from './config/firebase'
-import { useEffect, useState } from 'react'
+import "./App.css";
+import RouterComp from "./config/router";
+import { auth } from "./config/firebase";
+import { useEffect, useState } from "react";
 
 function App() {
   const [user, setUser] = useState();
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-
     auth.onAuthStateChanged(function (user) {
-
-      console.log(user)
-      setUser(user)
-
-    })
-
-
-  }, [])
+      console.log(user);
+      setUser(user);
+    });
+  }, []);
   return (
-
-
     <div className="App">
       {/* {user ? <RouterComp user={user} />
         :
@@ -30,10 +23,7 @@ function App() {
         </div>
       } */}
 
-
       <RouterComp user={user} />
- 
-
     </div>
   );
 }
