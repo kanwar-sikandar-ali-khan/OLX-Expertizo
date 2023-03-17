@@ -35,11 +35,11 @@ const Login = () => {
       <div className="container">
         <div className="row  ">
           <div className="col-md-7 login-col-text ">
-            <h1 className="signuploginhead text-center">IMPERIAL STORE</h1>
+            <h1 className="signuploginhead text-center">IMPERIAL STORES</h1>
             <br />
 
             <h1 className="signuploginhead text-center">
-              Sell online with IMPERIAL STORE
+              Sell online with IMPERIAL STORES
             </h1>
 
             <p className="text-center">
