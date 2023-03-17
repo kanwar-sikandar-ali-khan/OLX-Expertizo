@@ -85,7 +85,7 @@ const Login = () => {
                 style={{ cursor: "pointer" }}
                 onClick={() => history.push("/")}
               >
-                Not a user? Create account
+                Not a user? Create accounts
               </p>
             </form>
           </div>
