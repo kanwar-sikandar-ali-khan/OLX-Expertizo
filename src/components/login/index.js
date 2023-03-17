@@ -43,12 +43,7 @@ const Login = () => {
             </h1>
 
             <p className="text-center">
-              A great buyers' experience and their wish to return on imperial
-              store are largely dependent on the customer service provided by
-              the sellers. That's why we pay so much attention to your
-              performance. imperial store service metrics and seller performance
-              levels will help you get ahead of competitors and meet your
-              customers' expectations.
+                PARHO
             </p>
           </div>
 
