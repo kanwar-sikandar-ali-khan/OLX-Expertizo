@@ -31,7 +31,7 @@ const Header = ({ user }) => {
               }}
               style={{ fontWeight: 1000, cursor: "pointer" }}
             >
-              THE MY STORE
+              IMPERIAL STORE
             </h2>
           </div>
 
